@@ -21,6 +21,31 @@ const Index = () => {
               <p className="text-xl md:text-2xl text-muted-foreground mb-8 animate-fade-in" style={{animationDelay: "0.2s"}}>
                 Управляйте своим домом с помощью интуитивных технологий, создавая максимальный комфорт и безопасность
               </p>
+              
+              {/* Преимущества в офере */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8 animate-fade-in" style={{animationDelay: "0.3s"}}>
+                <div className="flex items-center">
+                  <div className="w-2 h-2 bg-hite-primary rounded-full mr-2"></div>
+                  <span className="text-sm md:text-base">Гарантия 3 года</span>
+                </div>
+                <div className="flex items-center">
+                  <div className="w-2 h-2 bg-hite-primary rounded-full mr-2"></div>
+                  <span className="text-sm md:text-base">Российский производитель</span>
+                </div>
+                <div className="flex items-center">
+                  <div className="w-2 h-2 bg-hite-primary rounded-full mr-2"></div>
+                  <span className="text-sm md:text-base">Беспроводные выключатели</span>
+                </div>
+                <div className="flex items-center">
+                  <div className="w-2 h-2 bg-hite-primary rounded-full mr-2"></div>
+                  <span className="text-sm md:text-base">Для деревянных домов</span>
+                </div>
+                <div className="flex items-center col-span-1 sm:col-span-2">
+                  <div className="w-2 h-2 bg-hite-primary rounded-full mr-2"></div>
+                  <span className="text-sm md:text-base">Работа от одной батарейки 7-10 лет</span>
+                </div>
+              </div>
+              
               <div className="flex flex-col sm:flex-row gap-4 animate-fade-in" style={{animationDelay: "0.4s"}}>
                 <Button size="lg" className="text-base">Заказать систему</Button>
                 <Button size="lg" variant="outline" className="text-base">Узнать больше</Button>
