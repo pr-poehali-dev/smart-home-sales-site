@@ -34,27 +34,27 @@ const Index = () => {
                 </div>
                 <div className="flex items-center">
                   <div className="w-2 h-2 bg-hite-primary rounded-full mr-2"></div>
-                  <span className="text-sm md:text-base">Беспроводные выключатели</span>
+                  <span className="text-sm md:text-base">Беспроводные выключатели не требующие штробления стен</span>
                 </div>
                 <div className="flex items-center">
                   <div className="w-2 h-2 bg-hite-primary rounded-full mr-2"></div>
-                  <span className="text-sm md:text-base">Для деревянных домов</span>
+                  <span className="text-sm md:text-base">Идеальное решение для деревянного дома</span>
                 </div>
                 <div className="flex items-center col-span-1 sm:col-span-2">
                   <div className="w-2 h-2 bg-hite-primary rounded-full mr-2"></div>
-                  <span className="text-sm md:text-base">Работа от одной батарейки 7-10 лет</span>
+                  <span className="text-sm md:text-base">Работа от одной батарейки от 7 до 10 лет</span>
                 </div>
               </div>
               
               <div className="flex flex-col sm:flex-row gap-4 animate-fade-in" style={{animationDelay: "0.4s"}}>
-                <Button size="lg" className="text-base">Заказать систему</Button>
-                <Button size="lg" variant="outline" className="text-base">Узнать больше</Button>
+                <Button size="lg" className="text-base bg-hite-primary hover:bg-hite-primary/90">Заказать систему</Button>
+                <Button size="lg" variant="outline" className="text-base border-hite-primary text-hite-primary hover:bg-hite-accent">Узнать больше</Button>
               </div>
             </div>
             <div className="md:w-1/2 flex justify-center animate-fade-in" style={{animationDelay: "0.3s"}}>
               <img 
-                src="https://images.unsplash.com/photo-1558002038-1055907df827?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
-                alt="Умный дом Hite-Pro" 
+                src="/images/smart-home-control.jpg" 
+                alt="Умный дом Hite-Pro - управление освещением и климатом" 
                 className="rounded-xl shadow-2xl max-w-full h-auto"
                 style={{width: "500px", height: "350px", objectFit: "cover"}}
               />
