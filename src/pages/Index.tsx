@@ -28,10 +28,10 @@ const Index = () => {
             </div>
             <div className="md:w-1/2 flex justify-center animate-fade-in" style={{animationDelay: "0.3s"}}>
               <img 
-                src="/placeholder.svg" 
+                src="https://images.unsplash.com/photo-1558002038-1055907df827?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
                 alt="Умный дом Hite-Pro" 
                 className="rounded-xl shadow-2xl max-w-full h-auto"
-                style={{width: "500px", height: "350px"}}
+                style={{width: "500px", height: "350px", objectFit: "cover"}}
               />
             </div>
           </div>
